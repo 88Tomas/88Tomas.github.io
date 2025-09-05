@@ -36,6 +36,10 @@ function calculate() {
         case '/':
             displayValue = (firstOperand / secondOperand).toString();
             break;
+        case '%':
+            displayValue = (firstOperand / secondOperand).toString();
+            break;
+            
 }
     updateDisplay();
     currentOperation = null;
